@@ -2,8 +2,8 @@
   <div class="pure-u-1-1">
       <h1>Bleeding Edge Web Meetup - Admin</h1>
       <p>
-          <button @click="sortBy=0;direction=!direction">By First Name</button>
-          <button @click="sortBy=1;direction=!direction">By Last Name</button>
+          <button @click="sortFirst">By First Name</button>
+          <button @click="sortLast">By Last Name</button>
       </p>
   </div>
 </template>
